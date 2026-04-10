@@ -20,9 +20,6 @@
  * to the Free Software Foundation, Inc., 51 Franklin Street, Fifth
  * Floor, Boston, MA 02110-1301 USA
 */ 
-/* 
- * HISTORY
-*/ 
 #ifdef HAVE_CONFIG_H
 #include <config.h>
 #endif
@@ -33,12 +30,10 @@
 static char rcsid[] = "$TOG: version.c /main/14 1999/10/12 09:32:45 mgreess $"
 #endif
 #endif
-/*
-*  (c) Copyright 1988, 1989, 1990, HEWLETT-PACKARD COMPANY */
 
 #ifndef        lint
 #define        osfversion() \
-   static char _motif_version[] = "@(#)Motif mwm 2.3.0 Release";
+   static char _motif_version[] = "@(#)Motif mwm 2.3.4 Release";
 #else  /* lint */
 #define        osfversion()
 #endif /* lint */
